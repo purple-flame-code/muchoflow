@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* LexVence Brand Colors */
+    --deep-blue: #0D1B2A;
+    --burnt-gold: #CBA135;
+    --steel-gray: #E5E7EB;
+    --electric-blue: #2271FF;
+    --background: 0 0% 98%; /* #FAFAFA */
+    --foreground: 0 0% 10%; /* #1A1A1A */
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    --primary: 210 85% 26%; /* Deep Blue */
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 40 59% 51%; /* Burnt Gold */
+    --secondary-foreground: 210 85% 26%;
+
+    --muted: 220 9% 92%; /* Steel Gray */
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 217 100% 57%; /* Electric Blue */
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 9% 85%;
+    --input: 220 9% 85%;
+    --ring: 217 100% 57%;
+
+    --radius: 0.5rem;
+
+    --chart-1: 217 100% 57%;
+    --chart-2: 40 59% 51%;
+    --chart-3: 210 85% 26%;
+    --chart-4: 220 9% 46%;
+    --chart-5: 220 9% 92%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#FAFAFA] text-[#1A1A1A] font-sans;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-deep-blue font-serif;
+    letter-spacing: -0.01em;
+  }
+
+  h1 {
+    @apply text-5xl lg:text-6xl font-bold leading-tight;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    @apply text-3xl lg:text-4xl font-semibold leading-tight;
+  }
+
+  h3 {
+    @apply text-2xl lg:text-3xl font-semibold;
+  }
+
+  p {
+    @apply text-base lg:text-lg leading-relaxed;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animate-on-scroll {
+    opacity: 0;
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 lg:px-16;
+  }
+}
