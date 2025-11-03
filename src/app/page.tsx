@@ -28,7 +28,7 @@ export default function Page() {
           <h2 className="text-4xl font-bold font-serif">Lo que hacemos</h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
             Llevamos lo que ya haces bien al entorno digital, con herramientas simples, estéticas y funcionales.
-            No necesitas ser experta en tecnología, necesitas una presencia clara, profesional y alineada con quién eres.
+            No necesitas ser experto en tecnología, necesitas una presencia clara, profesional y alineada con quién eres.
           </p>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left text-gray-700">
             <li><strong>• Identidad Visual:</strong> Representamos tu propósito con estética y coherencia.</li>
@@ -57,7 +57,7 @@ export default function Page() {
               <li>✔ Sitio responsivo, veloz y con diseño a medida</li>
               <li>✔ Panel editable (CMS) si aplica</li>
               <li>✔ Soporte post-lanzamiento (7 días)</li>
-              <li>✔ Live en 24hrs. Feliz o te devolvemos tu dinero.</li>
+              <li>✔ Live en 72hrs. Feliz o te devolvemos tu dinero.</li>
             </ul>
           </div>
 
@@ -67,7 +67,7 @@ export default function Page() {
               <p className="text-gray-700 mb-2">Para landing pages, portafolios o tiendas Shopify.</p>
               <ul className="text-sm text-gray-600 space-y-1">
                 <li>• Sitio de 1 sección</li>
-                <li>• Integración con WhatsApp o Shopify</li>
+                <li>• Integración con pasarela de pago </li>
                 <li>• Publicado en 24 horas tras onboarding</li>
               </ul>
             </div>
@@ -90,11 +90,11 @@ export default function Page() {
               </ul>
             </div>
             <div className="bg-zinc-50 p-6 rounded-lg shadow">
-              <h3 className="text-xl font-bold mb-2">Avanzado — $697.99</h3>
+              <h3 className="text-xl font-bold mb-2">Avanzado — $837.99</h3>
               <p className="text-gray-700 mb-2">Proyectos únicos, prototipos y apps funcionales.</p>
               <ul className="text-sm text-gray-600 space-y-1">
                 <li>• Funcionalidades personalizadas</li>
-                <li>• Apps o MVPs desde $900</li>
+                <li>• Apps o MVPs </li>
                 <li>• Escalable y acompañado</li>
               </ul>
             </div>
@@ -156,8 +156,8 @@ export default function Page() {
           </p>
           <div className="text-left space-y-8">
             <div>
-              <h3 className="text-xl font-semibold">1. Compra tu boleto</h3>
-              <p className="text-gray-700">Así de simple. Aquí no se separa puesto — se despega.</p>
+              <h3 className="text-xl font-semibold">1. Compra tu plan</h3>
+              <p className="text-gray-700">Así de simple. Precio transparente — sin costos ocultos.</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold">2. Onboarding call (1 hora)</h3>
@@ -182,19 +182,19 @@ export default function Page() {
           <div className="space-y-8 text-left">
             <div>
               <h3 className="text-lg font-semibold">¿Qué pasa si no me gusta el resultado?</h3>
-              <p className="text-gray-700">Tienes garantía total: si no estás satisfecho después de recibir tu sitio, puedes pedir un reembolso completo. Sin explicaciones.</p>
+              <p className="text-gray-700">Tienes garantía total: si no estás satisfecho después de recibir tu sitio, te reembolsamos tu dinero.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold">¿Qué necesito para comenzar?</h3>
-              <p className="text-gray-700">Solo elegir tu plan y tener disponible una hora para la llamada de onboarding. Nosotros nos encargamos del resto.</p>
+              <p className="text-gray-700">Solo elegir tu plan y tener disponible una hora para la video llamada de onboarding. Nosotros nos encargamos del resto.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold">¿Puedo modificar mi sitio luego?</h3>
-              <p className="text-gray-700">Sí. Puedes hacerlo tú mismo si incluye CMS editable, o solicitar ajustes como add-on.</p>
+              <p className="text-gray-700">Sí. Puedes hacerlo tú mismo o solicitar ajustes como add-on.</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold">¿Puedo pagar en cuotas?</h3>
-              <p className="text-gray-700">Por ahora solo se acepta pago único por plan. Pero puedes usar una tarjeta que permita pagar a plazos.</p>
+              <p className="text-gray-700">Si, tenemos opciones de pago mensuales facilitadas por 3rd parties que se despliegan para ti si eres seleccionable en el check out. Pero puedes usar una tarjeta que permita pagar a plazos.</p>
             </div>
           </div>
         </div>
@@ -204,7 +204,7 @@ export default function Page() {
       <section id="contacto" className="py-24 px-6 text-center bg-yellow-500 text-white">
         <div className="max-w-3xl mx-auto space-y-6">
           <h2 className="text-4xl font-bold font-serif">¿Listo para salir del anonimato?</h2>
-          <p className="text-lg">Compra tu plan y empieza tu éxodo digital hoy mismo. En menos de 24 horas, tu presencia en línea será real, funcional y hermosa.</p>
+          <p className="text-lg">Compra tu plan y empieza tu éxodo digital hoy mismo. En menos de 72 horas, tu presencia en línea será real, funcional y hermosa.</p>
           <a href="#precios" className="inline-block mt-6 px-10 py-4 bg-white text-yellow-600 font-semibold text-lg rounded-lg hover:bg-zinc-100 transition">
             Ver Planes y Comprar
           </a>
